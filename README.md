@@ -6,7 +6,8 @@ This repository contains files from a project where we attempted to use truth di
 
 To launch the framework run autodataShell.py, note however that the framework requires access to an Arango database instance to work properly.
 
-The framework consist of the following steps:
+##The framework consist of the following steps:
+    
     dataimport          -   Import data using info from config files
     convertmodel        -   Convert collected data to securiLANG
     getstringdata       -   Transform data structures into long strings
