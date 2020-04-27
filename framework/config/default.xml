@@ -1,0 +1,15 @@
+<Autodata>
+    <Database>
+        <Hostname>localhost</Hostname>
+        <Port>2424</Port>
+        <Database>SEGRIDdemo</Database>
+        <Username>claimer</Username>
+        <Password>111111</Password>
+    </Database>
+    <Algorithm>
+        <Name>LCA</Name>
+            <Parameter name="run">TRUE</Parameter>
+        <Name>LTM</Name>
+            <Parameter name="run">FALSE</Parameter>
+    </Algorithm>
+</Autodata>

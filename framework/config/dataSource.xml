@@ -1,0 +1,97 @@
+<Autodata>
+    <Import>
+        <Source name="HP-Procurve" coverage="system">
+            <File>data\\hp-procurve\\HP-Procurve_startup.txt</File>
+        </Source>
+        <Source name="Linux-netstat" coverage="system">
+            <File mainip="192.168.109.20" nodename="bldas01">data\\scada-a\\netstat.txt</File>
+            <File mainip="192.168.109.22" nodename="bldas02">data\\scada-b\\netstat-b.txt</File>
+        </Source>
+        <!--
+        <Source name="Linux-Packages" coverage="system">
+            <File mainip="192.168.109.20" nodename="bldas01">data\\scada-a\\installed.txt</File>
+            <File mainip="192.168.109.22" nodename="bldas02">data\\scada-b\\installed-b.txt</File>
+        </Source>
+        -->
+        <Source name="Linux-Users" coverage="system">
+            <File mainip="192.168.109.20" nodename="bldas01">data\\scada-a\\users.txt</File>
+            <File mainip="192.168.109.22" nodename="bldas02">data\\scada-b\\users-b.txt</File>
+        </Source>
+        <Source name="Nessus" coverage="subnet">
+            <File>data\\nessus\\Authenticated_SCADA_lab_scan_encn7b.xml</File>
+        </Source>
+        <Source name="Nexpose" coverage="subnet">
+            <File>data\\nexpose\\report.xml</File>
+        </Source>
+        <Source name="Nmap" coverage="subnet">
+            <File>data\\nmap\\04_25_nmap_scan.xml</File>
+        </Source>
+        <Source name="p0f" coverage="subnet">
+            <File mainip="10.1.1.112" nodename="Winscanner">data\\p0f\\p0f_output_allLANs</File>
+        </Source>
+        <Source name="pfsense_Conf" coverage="system">
+            <File mainip="10.1.1.1" nodename="10.1.1.1">data\\pfsense\\config-fw-01.localdomain-20170502161728.xml</File>
+        </Source>
+        <Source name="WinSoftwareAdapter" coverage="system">
+            <File mainip="192.168.109.21" nodename="bldad01">data\\bldad01\\Software.xml</File>
+            <File mainip="192.168.109.23" nodename="bldde01">data\\bldde01\\Software.xml</File>
+        </Source>
+        <Source name="WinUser" coverage="system">
+            <File mainip="192.168.109.21" nodename="bldad01">data\\bldad01\\UserAccounts.xml</File>
+            <File mainip="192.168.109.23" nodename="bldde01">data\\bldde01\\UserAccounts.xml</File>
+        </Source>
+        <Source name="Wireshark" coverage="subnet">
+            <File mainip="10.1.1.112" nodename="Winscanner">data\\wireshark\\summary-packets_fixed.xml</File>
+        </Source>
+    </Import>
+    <Adapters>
+        <Adapter name="HP-Procurve">
+            <File>import_HPProcurve</File>
+            <Version>0.1</Version>
+        </Adapter>
+        <Adapter name="Linux-netstat">
+            <File>import_LinuxNetstat</File>
+            <Version>0.1</Version>
+        </Adapter>
+        <Adapter name="Linux-Packages">
+            <File>import_LinuxPackages</File>
+            <Version>0.1</Version>
+        </Adapter>
+        <Adapter name="Linux-Users">
+            <File>import_LinuxUsers</File>
+            <Version>0.1</Version>
+        </Adapter>
+        <Adapter name="Nessus">
+            <File>import_Nessus</File>
+            <Version>0.1</Version>
+        </Adapter>
+        <Adapter name="Nexpose">
+            <File>import_Nexpose</File>
+            <Version>0.1</Version>
+        </Adapter>
+        <Adapter name="Nmap">
+            <File>import_Nmap</File>
+            <Version>0.1</Version>
+        </Adapter>
+        <Adapter name="p0f">
+            <File>import_p0f</File>
+            <Version>0.1</Version>
+        </Adapter>
+        <Adapter name="pfsense_Conf">
+            <File>import_pfsense</File>
+            <Version>0.1</Version>
+        </Adapter>
+        <Adapter name="WinSoftwareAdapter">
+            <File>import_WinSoftwareAdapter</File>
+            <Version>0.1</Version>
+        </Adapter>
+        <Adapter name="WinUserAdapter">
+            <File>import_WinUser</File>
+            <Version>0.1</Version>
+        </Adapter>
+        <Adapter name="Wireshark">
+            <File>import_Wireshark</File>
+            <Version>0.1</Version>
+        </Adapter>
+    </Adapters>
+</Autodata>
