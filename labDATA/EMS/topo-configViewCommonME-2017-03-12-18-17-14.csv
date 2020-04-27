@@ -1,0 +1,4 @@
+ID,Status,IP,Name,VLAN ID
+"249956","/webclient/common/images/severity_clear.gif","10.1.1.11","Process-GW",911
+"249955","/webclient/common/images/severity_clear.gif","10.1.1.15","Substation",911
+"249949","/webclient/common/images/severity_critical.gif","10.1.1.21","Management",911

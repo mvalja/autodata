@@ -1,0 +1,717 @@
+. 2017-03-27 14:04:37.150 --------------------------------------------------------------------------
+. 2017-03-27 14:04:37.150 WinSCP Version 5.7.7 (Build 6257) (OS 6.3.9600 - Windows Server 2012 R2 Standard)
+. 2017-03-27 14:04:37.150 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2017-03-27 14:04:37.150 Log level: Normal
+. 2017-03-27 14:04:37.150 Local account: BLDDE01\Administrator
+. 2017-03-27 14:04:37.150 Working directory: C:\Windows\system32
+. 2017-03-27 14:04:37.150 Process ID: 1568
+. 2017-03-27 14:04:37.150 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /log=c:\temp\winscp.log /command "open sftp://scada:Uplo4d1ng@192.168.102.101" "put c:\ABB\DE400\DE400.xml /" "exit"
+. 2017-03-27 14:04:37.150 Time zone: Current: GMT+2, Standard: GMT+1 (W. Europe Standard Time), DST: GMT+2 (W. Europe Daylight Time), DST Start: 3/26/2017, DST End: 10/29/2017
+. 2017-03-27 14:04:37.150 Login time: Monday, March 27, 2017 2:04:37 PM
+. 2017-03-27 14:04:37.150 --------------------------------------------------------------------------
+. 2017-03-27 14:04:37.150 Script: Retrospectively logging previous script records:
+> 2017-03-27 14:04:37.150 Script: open sftp://scada:***@192.168.102.101
+. 2017-03-27 14:04:37.150 --------------------------------------------------------------------------
+. 2017-03-27 14:04:37.150 Session name: scada@192.168.102.101 (Ad-Hoc site)
+. 2017-03-27 14:04:37.150 Host name: 192.168.102.101 (Port: 22)
+. 2017-03-27 14:04:37.150 User name: scada (Password: Yes, Key file: No)
+. 2017-03-27 14:04:37.150 Tunnel: No
+. 2017-03-27 14:04:37.150 Transfer Protocol: SFTP
+. 2017-03-27 14:04:37.150 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-03-27 14:04:37.150 Disable Nagle: No
+. 2017-03-27 14:04:37.150 Proxy: none
+. 2017-03-27 14:04:37.150 Send buffer: 262144
+. 2017-03-27 14:04:37.150 SSH protocol version: 2; Compression: No
+. 2017-03-27 14:04:37.150 Bypass authentication: No
+. 2017-03-27 14:04:37.150 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-03-27 14:04:37.150 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-03-27 14:04:37.150 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-03-27 14:04:37.150 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A,A
+. 2017-03-27 14:04:37.150 Simple channel: Yes
+. 2017-03-27 14:04:37.150 Return code variable: Autodetect; Lookup user groups: A
+. 2017-03-27 14:04:37.150 Shell: default
+. 2017-03-27 14:04:37.150 EOL: 0, UTF: 2
+. 2017-03-27 14:04:37.150 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-03-27 14:04:37.150 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-03-27 14:04:37.150 SFTP Bugs: A,A
+. 2017-03-27 14:04:37.150 SFTP Server: default
+. 2017-03-27 14:04:37.150 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-03-27 14:04:37.150 Cache directory changes: Yes, Permanent: Yes
+. 2017-03-27 14:04:37.150 DST mode: 1
+. 2017-03-27 14:04:37.150 --------------------------------------------------------------------------
+. 2017-03-27 14:04:37.150 Looking up host "192.168.102.101"
+. 2017-03-27 14:04:37.150 Connecting to 192.168.102.101 port 22
+. 2017-03-27 14:04:37.165 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.1
+. 2017-03-27 14:04:37.165 Using SSH protocol version 2
+. 2017-03-27 14:04:37.165 We claim version: SSH-2.0-WinSCP_release_5.7.7
+. 2017-03-27 14:04:37.165 Doing Diffie-Hellman group exchange
+. 2017-03-27 14:04:37.181 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2017-03-27 14:04:38.791 Verifying host key rsa2 0x10001,0xb550f0a6ea8860c2 90844764f43b1c47 b6b9a44ea1d04948 da06515fd4406000 e7b68752cc52dc41 0bfff365cbbfd87d 0db03cc42e8b6570 9e88562b0f6eb2c3 cc11718dd5f6ff85 4898b543caa49b6f 745885a042813f2f dc695a8496261011 d1c002ec6dcfa687 f1f6cd7b14733f4b 0c12b49e8d039c31 398be0602786f682 53e99ac6e00e71f8 cfa8ea75bc245bf6 38d41c19f3acb8f1 c82883cac4ae57c8 a54f81736577088d 2b7933ab690e1370 197861f7d119545d e4a75dd8caef5c17 ecd3418efd11030d 6d609a54f0b1ba6e ef935332dd6eeefe 33448b1861cc0061 484309b9f375b0a1 7da1e681e479eea7 2b4fde271965e245 a82e27b2e461f339  with fingerprint ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:04:38.791 Host key matches cached key
+. 2017-03-27 14:04:38.791 Host key fingerprint is:
+. 2017-03-27 14:04:38.791 ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:04:38.791 Initialised AES-256 SDCTR client->server encryption
+. 2017-03-27 14:04:38.791 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-03-27 14:04:38.791 Initialised AES-256 SDCTR server->client encryption
+. 2017-03-27 14:04:38.791 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-03-27 14:04:38.837 Using username "scada".
+. 2017-03-27 14:04:38.837 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-03-27 14:04:38.837 Using stored password.
+. 2017-03-27 14:04:38.837 Sent password
+. 2017-03-27 14:04:38.853 Access granted
+. 2017-03-27 14:04:38.853 Opening session as main channel
+. 2017-03-27 14:04:39.040 Network error: Software caused connection abort
+. 2017-03-27 14:13:21.613 --------------------------------------------------------------------------
+. 2017-03-27 14:13:21.613 WinSCP Version 5.7.7 (Build 6257) (OS 6.3.9600 - Windows Server 2012 R2 Standard)
+. 2017-03-27 14:13:21.613 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2017-03-27 14:13:21.613 Log level: Normal
+. 2017-03-27 14:13:21.613 Local account: BLDDE01\Administrator
+. 2017-03-27 14:13:21.613 Working directory: C:\Windows\system32
+. 2017-03-27 14:13:21.613 Process ID: 3252
+. 2017-03-27 14:13:21.613 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /log=c:\temp\winscp.log /command "open sftp://scada:Uplo4d1ng@192.168.102.101" "put c:\ABB\DE400\DE400.xml /" "exit"
+. 2017-03-27 14:13:21.613 Time zone: Current: GMT+2, Standard: GMT+1 (W. Europe Standard Time), DST: GMT+2 (W. Europe Daylight Time), DST Start: 3/26/2017, DST End: 10/29/2017
+. 2017-03-27 14:13:21.613 Login time: Monday, March 27, 2017 2:13:21 PM
+. 2017-03-27 14:13:21.613 --------------------------------------------------------------------------
+. 2017-03-27 14:13:21.613 Script: Retrospectively logging previous script records:
+> 2017-03-27 14:13:21.613 Script: open sftp://scada:***@192.168.102.101
+. 2017-03-27 14:13:21.613 --------------------------------------------------------------------------
+. 2017-03-27 14:13:21.613 Session name: scada@192.168.102.101 (Ad-Hoc site)
+. 2017-03-27 14:13:21.613 Host name: 192.168.102.101 (Port: 22)
+. 2017-03-27 14:13:21.613 User name: scada (Password: Yes, Key file: No)
+. 2017-03-27 14:13:21.613 Tunnel: No
+. 2017-03-27 14:13:21.613 Transfer Protocol: SFTP
+. 2017-03-27 14:13:21.613 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-03-27 14:13:21.613 Disable Nagle: No
+. 2017-03-27 14:13:21.613 Proxy: none
+. 2017-03-27 14:13:21.613 Send buffer: 262144
+. 2017-03-27 14:13:21.613 SSH protocol version: 2; Compression: No
+. 2017-03-27 14:13:21.613 Bypass authentication: No
+. 2017-03-27 14:13:21.613 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-03-27 14:13:21.613 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-03-27 14:13:21.613 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-03-27 14:13:21.613 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A,A
+. 2017-03-27 14:13:21.613 Simple channel: Yes
+. 2017-03-27 14:13:21.613 Return code variable: Autodetect; Lookup user groups: A
+. 2017-03-27 14:13:21.613 Shell: default
+. 2017-03-27 14:13:21.613 EOL: 0, UTF: 2
+. 2017-03-27 14:13:21.613 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-03-27 14:13:21.613 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-03-27 14:13:21.613 SFTP Bugs: A,A
+. 2017-03-27 14:13:21.613 SFTP Server: default
+. 2017-03-27 14:13:21.613 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-03-27 14:13:21.613 Cache directory changes: Yes, Permanent: Yes
+. 2017-03-27 14:13:21.613 DST mode: 1
+. 2017-03-27 14:13:21.613 --------------------------------------------------------------------------
+. 2017-03-27 14:13:21.613 Looking up host "192.168.102.101"
+. 2017-03-27 14:13:21.613 Connecting to 192.168.102.101 port 22
+. 2017-03-27 14:13:21.629 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.1
+. 2017-03-27 14:13:21.629 Using SSH protocol version 2
+. 2017-03-27 14:13:21.629 We claim version: SSH-2.0-WinSCP_release_5.7.7
+. 2017-03-27 14:13:21.629 Doing Diffie-Hellman group exchange
+. 2017-03-27 14:13:21.645 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2017-03-27 14:13:23.285 Verifying host key rsa2 0x10001,0xb550f0a6ea8860c2 90844764f43b1c47 b6b9a44ea1d04948 da06515fd4406000 e7b68752cc52dc41 0bfff365cbbfd87d 0db03cc42e8b6570 9e88562b0f6eb2c3 cc11718dd5f6ff85 4898b543caa49b6f 745885a042813f2f dc695a8496261011 d1c002ec6dcfa687 f1f6cd7b14733f4b 0c12b49e8d039c31 398be0602786f682 53e99ac6e00e71f8 cfa8ea75bc245bf6 38d41c19f3acb8f1 c82883cac4ae57c8 a54f81736577088d 2b7933ab690e1370 197861f7d119545d e4a75dd8caef5c17 ecd3418efd11030d 6d609a54f0b1ba6e ef935332dd6eeefe 33448b1861cc0061 484309b9f375b0a1 7da1e681e479eea7 2b4fde271965e245 a82e27b2e461f339  with fingerprint ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:13:23.285 Host key matches cached key
+. 2017-03-27 14:13:23.285 Host key fingerprint is:
+. 2017-03-27 14:13:23.285 ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:13:23.285 Initialised AES-256 SDCTR client->server encryption
+. 2017-03-27 14:13:23.285 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-03-27 14:13:23.285 Initialised AES-256 SDCTR server->client encryption
+. 2017-03-27 14:13:23.285 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-03-27 14:13:23.317 Using username "scada".
+. 2017-03-27 14:13:23.332 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-03-27 14:13:23.332 Using stored password.
+. 2017-03-27 14:13:23.332 Sent password
+. 2017-03-27 14:13:23.348 Access granted
+. 2017-03-27 14:13:23.348 Opening session as main channel
+. 2017-03-27 14:13:23.567 Opened main channel
+. 2017-03-27 14:13:23.567 Started a shell/command
+. 2017-03-27 14:13:23.567 --------------------------------------------------------------------------
+. 2017-03-27 14:13:23.567 Using SFTP protocol.
+. 2017-03-27 14:13:23.567 Doing startup conversation with host.
+> 2017-03-27 14:13:23.567 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-03-27 14:13:23.567 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2017-03-27 14:13:23.567 SFTP version 3 negotiated.
+. 2017-03-27 14:13:23.567 Unknown server extension posix-rename@openssh.com="1"
+. 2017-03-27 14:13:23.567 Supports statvfs@openssh.com extension version "2"
+. 2017-03-27 14:13:23.567 Unknown server extension fstatvfs@openssh.com="2"
+. 2017-03-27 14:13:23.567 Supports hardlink@openssh.com extension version "1"
+. 2017-03-27 14:13:23.567 Unknown server extension fsync@openssh.com="1"
+. 2017-03-27 14:13:23.567 We believe the server has signed timestamps bug
+. 2017-03-27 14:13:23.567 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-03-27 14:13:23.567 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2017-03-27 14:13:23.567 Getting current directory name.
+. 2017-03-27 14:13:23.567 Getting real path for '.'
+> 2017-03-27 14:13:23.567 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-03-27 14:13:23.567 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-03-27 14:13:23.567 Real path is '/'
+. 2017-03-27 14:13:23.567 Startup conversation with host finished.
+< 2017-03-27 14:13:23.567 Script: Active session: [1] scada@192.168.102.101
+> 2017-03-27 14:13:23.567 Script: put c:\ABB\DE400\DE400.xml /
+. 2017-03-27 14:13:23.567 Copying 1 files/directories to remote directory "/"
+. 2017-03-27 14:13:23.567   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2017-03-27 14:13:23.567   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-03-27 14:13:23.567   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-03-27 14:13:23.567 File: 'c:\ABB\DE400\DE400.xml' [2016-06-22T09:16:24.000Z] [5619]
+. 2017-03-27 14:13:23.567 Copying "c:\ABB\DE400\DE400.xml" to remote directory started.
+. 2017-03-27 14:13:23.567 Binary transfer mode selected.
+. 2017-03-27 14:13:23.567 Opening remote file.
+> 2017-03-27 14:13:23.567 Type: SSH_FXP_OPEN, Size: 35, Number: 259
+< 2017-03-27 14:13:23.567 Type: SSH_FXP_STATUS, Size: 34, Number: 259
+< 2017-03-27 14:13:23.567 Status code: 3, Message: 259, Server: Permission denied, Language:  
+> 2017-03-27 14:13:23.567 Type: SSH_FXP_LSTAT, Size: 19, Number: 519
+< 2017-03-27 14:13:23.567 Type: SSH_FXP_STATUS, Size: 29, Number: 519
+< 2017-03-27 14:13:23.567 Status code: 2, Message: 519, Server: No such file, Language:  
+* 2017-03-27 14:13:23.567 (ETerminal) Permission denied.
+* 2017-03-27 14:13:23.567 Error code: 3
+* 2017-03-27 14:13:23.567 Error message from server: Permission denied
+. 2017-03-27 14:13:23.567 Asking user:
+. 2017-03-27 14:13:23.567 Cannot create remote file '/DE400.xml'. ("Permission denied.
+. 2017-03-27 14:13:23.567 Error code: 3
+. 2017-03-27 14:13:23.567 Error message from server: Permission denied")
+< 2017-03-27 14:13:23.567 Script: Cannot create remote file '/DE400.xml'.
+< 2017-03-27 14:13:23.567 Script: Permission denied.
+< 2017-03-27 14:13:23.567 Error code: 3
+< 2017-03-27 14:13:23.567 Error message from server: Permission denied
+* 2017-03-27 14:13:23.567 (EScpSkipFile) Cannot create remote file '/DE400.xml'.
+* 2017-03-27 14:13:23.567 Permission denied.
+* 2017-03-27 14:13:23.567 Error code: 3
+* 2017-03-27 14:13:23.567 Error message from server: Permission denied
+. 2017-03-27 14:13:23.567 Script: Failed
+. 2017-03-27 14:13:23.567 Script: Exit code: 1
+. 2017-03-27 14:13:23.567 Closing connection.
+. 2017-03-27 14:13:23.567 Sending special code: 12
+. 2017-03-27 14:13:23.567 Sent EOF message
+. 2017-03-27 14:14:46.172 --------------------------------------------------------------------------
+. 2017-03-27 14:14:46.172 WinSCP Version 5.7.7 (Build 6257) (OS 6.3.9600 - Windows Server 2012 R2 Standard)
+. 2017-03-27 14:14:46.172 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2017-03-27 14:14:46.172 Log level: Normal
+. 2017-03-27 14:14:46.172 Local account: BLDDE01\Administrator
+. 2017-03-27 14:14:46.172 Working directory: C:\Windows\system32
+. 2017-03-27 14:14:46.172 Process ID: 2124
+. 2017-03-27 14:14:46.172 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /log=c:\temp\winscp.log /command "open sftp://scada:Uplo4d1ng@192.168.102.101" "put c:\ABB\DE400\DE400.xml /" "exit"
+. 2017-03-27 14:14:46.172 Time zone: Current: GMT+2, Standard: GMT+1 (W. Europe Standard Time), DST: GMT+2 (W. Europe Daylight Time), DST Start: 3/26/2017, DST End: 10/29/2017
+. 2017-03-27 14:14:46.172 Login time: Monday, March 27, 2017 2:14:46 PM
+. 2017-03-27 14:14:46.172 --------------------------------------------------------------------------
+. 2017-03-27 14:14:46.172 Script: Retrospectively logging previous script records:
+> 2017-03-27 14:14:46.172 Script: open sftp://scada:***@192.168.102.101
+. 2017-03-27 14:14:46.172 --------------------------------------------------------------------------
+. 2017-03-27 14:14:46.172 Session name: scada@192.168.102.101 (Ad-Hoc site)
+. 2017-03-27 14:14:46.172 Host name: 192.168.102.101 (Port: 22)
+. 2017-03-27 14:14:46.172 User name: scada (Password: Yes, Key file: No)
+. 2017-03-27 14:14:46.172 Tunnel: No
+. 2017-03-27 14:14:46.172 Transfer Protocol: SFTP
+. 2017-03-27 14:14:46.172 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-03-27 14:14:46.172 Disable Nagle: No
+. 2017-03-27 14:14:46.172 Proxy: none
+. 2017-03-27 14:14:46.172 Send buffer: 262144
+. 2017-03-27 14:14:46.172 SSH protocol version: 2; Compression: No
+. 2017-03-27 14:14:46.172 Bypass authentication: No
+. 2017-03-27 14:14:46.172 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-03-27 14:14:46.172 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-03-27 14:14:46.172 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-03-27 14:14:46.172 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A,A
+. 2017-03-27 14:14:46.172 Simple channel: Yes
+. 2017-03-27 14:14:46.172 Return code variable: Autodetect; Lookup user groups: A
+. 2017-03-27 14:14:46.172 Shell: default
+. 2017-03-27 14:14:46.172 EOL: 0, UTF: 2
+. 2017-03-27 14:14:46.172 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-03-27 14:14:46.172 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-03-27 14:14:46.172 SFTP Bugs: A,A
+. 2017-03-27 14:14:46.172 SFTP Server: default
+. 2017-03-27 14:14:46.172 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-03-27 14:14:46.172 Cache directory changes: Yes, Permanent: Yes
+. 2017-03-27 14:14:46.172 DST mode: 1
+. 2017-03-27 14:14:46.172 --------------------------------------------------------------------------
+. 2017-03-27 14:14:46.172 Looking up host "192.168.102.101"
+. 2017-03-27 14:14:46.172 Connecting to 192.168.102.101 port 22
+. 2017-03-27 14:14:46.188 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.1
+. 2017-03-27 14:14:46.188 Using SSH protocol version 2
+. 2017-03-27 14:14:46.188 We claim version: SSH-2.0-WinSCP_release_5.7.7
+. 2017-03-27 14:14:46.188 Doing Diffie-Hellman group exchange
+. 2017-03-27 14:14:46.204 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2017-03-27 14:14:47.829 Verifying host key rsa2 0x10001,0xb550f0a6ea8860c2 90844764f43b1c47 b6b9a44ea1d04948 da06515fd4406000 e7b68752cc52dc41 0bfff365cbbfd87d 0db03cc42e8b6570 9e88562b0f6eb2c3 cc11718dd5f6ff85 4898b543caa49b6f 745885a042813f2f dc695a8496261011 d1c002ec6dcfa687 f1f6cd7b14733f4b 0c12b49e8d039c31 398be0602786f682 53e99ac6e00e71f8 cfa8ea75bc245bf6 38d41c19f3acb8f1 c82883cac4ae57c8 a54f81736577088d 2b7933ab690e1370 197861f7d119545d e4a75dd8caef5c17 ecd3418efd11030d 6d609a54f0b1ba6e ef935332dd6eeefe 33448b1861cc0061 484309b9f375b0a1 7da1e681e479eea7 2b4fde271965e245 a82e27b2e461f339  with fingerprint ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:14:47.829 Host key matches cached key
+. 2017-03-27 14:14:47.829 Host key fingerprint is:
+. 2017-03-27 14:14:47.829 ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:14:47.829 Initialised AES-256 SDCTR client->server encryption
+. 2017-03-27 14:14:47.829 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-03-27 14:14:47.829 Initialised AES-256 SDCTR server->client encryption
+. 2017-03-27 14:14:47.829 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-03-27 14:14:47.876 Using username "scada".
+. 2017-03-27 14:14:47.876 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-03-27 14:14:47.876 Using stored password.
+. 2017-03-27 14:14:47.876 Sent password
+. 2017-03-27 14:14:47.891 Access granted
+. 2017-03-27 14:14:47.891 Opening session as main channel
+. 2017-03-27 14:14:48.110 Network error: Software caused connection abort
+. 2017-03-27 14:18:42.170 --------------------------------------------------------------------------
+. 2017-03-27 14:18:42.170 WinSCP Version 5.7.7 (Build 6257) (OS 6.3.9600 - Windows Server 2012 R2 Standard)
+. 2017-03-27 14:18:42.170 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2017-03-27 14:18:42.170 Log level: Normal
+. 2017-03-27 14:18:42.170 Local account: BLDDE01\Administrator
+. 2017-03-27 14:18:42.170 Working directory: C:\Windows\system32
+. 2017-03-27 14:18:42.170 Process ID: 2796
+. 2017-03-27 14:18:42.170 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /log=c:\temp\winscp.log /command "open sftp://scada:Uplo4d1ng@192.168.102.101" "put c:\ABB\DE400\DE400.xml /NMSdata" "exit"
+. 2017-03-27 14:18:42.170 Time zone: Current: GMT+2, Standard: GMT+1 (W. Europe Standard Time), DST: GMT+2 (W. Europe Daylight Time), DST Start: 3/26/2017, DST End: 10/29/2017
+. 2017-03-27 14:18:42.170 Login time: Monday, March 27, 2017 2:18:42 PM
+. 2017-03-27 14:18:42.170 --------------------------------------------------------------------------
+. 2017-03-27 14:18:42.170 Script: Retrospectively logging previous script records:
+> 2017-03-27 14:18:42.170 Script: open sftp://scada:***@192.168.102.101
+. 2017-03-27 14:18:42.170 --------------------------------------------------------------------------
+. 2017-03-27 14:18:42.170 Session name: scada@192.168.102.101 (Ad-Hoc site)
+. 2017-03-27 14:18:42.170 Host name: 192.168.102.101 (Port: 22)
+. 2017-03-27 14:18:42.170 User name: scada (Password: Yes, Key file: No)
+. 2017-03-27 14:18:42.170 Tunnel: No
+. 2017-03-27 14:18:42.170 Transfer Protocol: SFTP
+. 2017-03-27 14:18:42.170 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-03-27 14:18:42.170 Disable Nagle: No
+. 2017-03-27 14:18:42.170 Proxy: none
+. 2017-03-27 14:18:42.170 Send buffer: 262144
+. 2017-03-27 14:18:42.170 SSH protocol version: 2; Compression: No
+. 2017-03-27 14:18:42.170 Bypass authentication: No
+. 2017-03-27 14:18:42.170 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-03-27 14:18:42.170 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-03-27 14:18:42.170 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-03-27 14:18:42.170 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A,A
+. 2017-03-27 14:18:42.170 Simple channel: Yes
+. 2017-03-27 14:18:42.170 Return code variable: Autodetect; Lookup user groups: A
+. 2017-03-27 14:18:42.170 Shell: default
+. 2017-03-27 14:18:42.170 EOL: 0, UTF: 2
+. 2017-03-27 14:18:42.170 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-03-27 14:18:42.170 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-03-27 14:18:42.170 SFTP Bugs: A,A
+. 2017-03-27 14:18:42.170 SFTP Server: default
+. 2017-03-27 14:18:42.170 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-03-27 14:18:42.170 Cache directory changes: Yes, Permanent: Yes
+. 2017-03-27 14:18:42.170 DST mode: 1
+. 2017-03-27 14:18:42.170 --------------------------------------------------------------------------
+. 2017-03-27 14:18:42.186 Looking up host "192.168.102.101"
+. 2017-03-27 14:18:42.186 Connecting to 192.168.102.101 port 22
+. 2017-03-27 14:18:42.186 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.1
+. 2017-03-27 14:18:42.186 Using SSH protocol version 2
+. 2017-03-27 14:18:42.186 We claim version: SSH-2.0-WinSCP_release_5.7.7
+. 2017-03-27 14:18:42.186 Doing Diffie-Hellman group exchange
+. 2017-03-27 14:18:42.202 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2017-03-27 14:18:43.827 Verifying host key rsa2 0x10001,0xb550f0a6ea8860c2 90844764f43b1c47 b6b9a44ea1d04948 da06515fd4406000 e7b68752cc52dc41 0bfff365cbbfd87d 0db03cc42e8b6570 9e88562b0f6eb2c3 cc11718dd5f6ff85 4898b543caa49b6f 745885a042813f2f dc695a8496261011 d1c002ec6dcfa687 f1f6cd7b14733f4b 0c12b49e8d039c31 398be0602786f682 53e99ac6e00e71f8 cfa8ea75bc245bf6 38d41c19f3acb8f1 c82883cac4ae57c8 a54f81736577088d 2b7933ab690e1370 197861f7d119545d e4a75dd8caef5c17 ecd3418efd11030d 6d609a54f0b1ba6e ef935332dd6eeefe 33448b1861cc0061 484309b9f375b0a1 7da1e681e479eea7 2b4fde271965e245 a82e27b2e461f339  with fingerprint ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:18:43.842 Host key matches cached key
+. 2017-03-27 14:18:43.842 Host key fingerprint is:
+. 2017-03-27 14:18:43.842 ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:18:43.842 Initialised AES-256 SDCTR client->server encryption
+. 2017-03-27 14:18:43.842 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-03-27 14:18:43.842 Initialised AES-256 SDCTR server->client encryption
+. 2017-03-27 14:18:43.842 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-03-27 14:18:43.873 Using username "scada".
+. 2017-03-27 14:18:43.889 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-03-27 14:18:43.889 Using stored password.
+. 2017-03-27 14:18:43.889 Sent password
+. 2017-03-27 14:18:43.905 Access granted
+. 2017-03-27 14:18:43.905 Opening session as main channel
+. 2017-03-27 14:18:44.170 Opened main channel
+. 2017-03-27 14:18:44.170 Started a shell/command
+. 2017-03-27 14:18:44.170 --------------------------------------------------------------------------
+. 2017-03-27 14:18:44.170 Using SFTP protocol.
+. 2017-03-27 14:18:44.170 Doing startup conversation with host.
+> 2017-03-27 14:18:44.170 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-03-27 14:18:44.170 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2017-03-27 14:18:44.170 SFTP version 3 negotiated.
+. 2017-03-27 14:18:44.170 Unknown server extension posix-rename@openssh.com="1"
+. 2017-03-27 14:18:44.170 Supports statvfs@openssh.com extension version "2"
+. 2017-03-27 14:18:44.170 Unknown server extension fstatvfs@openssh.com="2"
+. 2017-03-27 14:18:44.170 Supports hardlink@openssh.com extension version "1"
+. 2017-03-27 14:18:44.170 Unknown server extension fsync@openssh.com="1"
+. 2017-03-27 14:18:44.170 We believe the server has signed timestamps bug
+. 2017-03-27 14:18:44.170 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-03-27 14:18:44.170 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2017-03-27 14:18:44.170 Getting current directory name.
+. 2017-03-27 14:18:44.170 Getting real path for '.'
+> 2017-03-27 14:18:44.170 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-03-27 14:18:44.170 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-03-27 14:18:44.170 Real path is '/'
+. 2017-03-27 14:18:44.170 Startup conversation with host finished.
+< 2017-03-27 14:18:44.170 Script: Active session: [1] scada@192.168.102.101
+> 2017-03-27 14:18:44.170 Script: put c:\ABB\DE400\DE400.xml /NMSdata
+. 2017-03-27 14:18:44.170 Copying 1 files/directories to remote directory "/"
+. 2017-03-27 14:18:44.170   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: NMSdata
+. 2017-03-27 14:18:44.170   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-03-27 14:18:44.170   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-03-27 14:18:44.170 File: 'c:\ABB\DE400\DE400.xml' [2016-06-22T09:16:24.000Z] [5619]
+. 2017-03-27 14:18:44.170 Copying "c:\ABB\DE400\DE400.xml" to remote directory started.
+. 2017-03-27 14:18:44.170 Binary transfer mode selected.
+. 2017-03-27 14:18:44.170 Opening remote file.
+> 2017-03-27 14:18:44.170 Type: SSH_FXP_OPEN, Size: 33, Number: 259
+< 2017-03-27 14:18:44.170 Type: SSH_FXP_STATUS, Size: 24, Number: 259
+< 2017-03-27 14:18:44.170 Status code: 4, Message: 259, Server: Failure, Language:  
+> 2017-03-27 14:18:44.170 Type: SSH_FXP_LSTAT, Size: 17, Number: 519
+< 2017-03-27 14:18:44.170 Type: SSH_FXP_ATTRS, Size: 37, Number: 519
+* 2017-03-27 14:18:44.170 (ETerminal) General failure (server should provide error description).
+* 2017-03-27 14:18:44.170 Error code: 4
+* 2017-03-27 14:18:44.170 Error message from server: Failure
+. 2017-03-27 14:18:44.170 Asking user:
+. 2017-03-27 14:18:44.170 Cannot overwrite remote file '/NMSdata'.$$
+. 2017-03-27 14:18:44.170  
+. 2017-03-27 14:18:44.170 Press 'Delete' to delete the file and create new one instead of overwriting it.$$ ("General failure (server should provide error description).
+. 2017-03-27 14:18:44.170 Error code: 4
+. 2017-03-27 14:18:44.170 Error message from server: Failure")
+< 2017-03-27 14:18:44.170 Script: Cannot overwrite remote file '/NMSdata'.
+< 2017-03-27 14:18:44.170 Script: General failure (server should provide error description).
+< 2017-03-27 14:18:44.170 Error code: 4
+< 2017-03-27 14:18:44.170 Error message from server: Failure
+* 2017-03-27 14:18:44.170 (EScpSkipFile) Cannot overwrite remote file '/NMSdata'.$$
+* 2017-03-27 14:18:44.170  
+* 2017-03-27 14:18:44.170 Press 'Delete' to delete the file and create new one instead of overwriting it.$$
+* 2017-03-27 14:18:44.170 General failure (server should provide error description).
+* 2017-03-27 14:18:44.170 Error code: 4
+* 2017-03-27 14:18:44.170 Error message from server: Failure
+. 2017-03-27 14:18:44.170 Script: Failed
+. 2017-03-27 14:18:44.170 Script: Exit code: 1
+. 2017-03-27 14:18:44.170 Closing connection.
+. 2017-03-27 14:18:44.170 Sending special code: 12
+. 2017-03-27 14:18:44.170 Sent EOF message
+. 2017-03-27 14:18:52.577 --------------------------------------------------------------------------
+. 2017-03-27 14:18:52.577 WinSCP Version 5.7.7 (Build 6257) (OS 6.3.9600 - Windows Server 2012 R2 Standard)
+. 2017-03-27 14:18:52.577 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2017-03-27 14:18:52.577 Log level: Normal
+. 2017-03-27 14:18:52.577 Local account: BLDDE01\Administrator
+. 2017-03-27 14:18:52.577 Working directory: C:\Windows\system32
+. 2017-03-27 14:18:52.577 Process ID: 3456
+. 2017-03-27 14:18:52.577 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /log=c:\temp\winscp.log /command "open sftp://scada:Uplo4d1ng@192.168.102.101" "put c:\ABB\DE400\DE400.xml /NMSdata" "exit"
+. 2017-03-27 14:18:52.577 Time zone: Current: GMT+2, Standard: GMT+1 (W. Europe Standard Time), DST: GMT+2 (W. Europe Daylight Time), DST Start: 3/26/2017, DST End: 10/29/2017
+. 2017-03-27 14:18:52.577 Login time: Monday, March 27, 2017 2:18:52 PM
+. 2017-03-27 14:18:52.577 --------------------------------------------------------------------------
+. 2017-03-27 14:18:52.577 Script: Retrospectively logging previous script records:
+> 2017-03-27 14:18:52.577 Script: open sftp://scada:***@192.168.102.101
+. 2017-03-27 14:18:52.577 --------------------------------------------------------------------------
+. 2017-03-27 14:18:52.577 Session name: scada@192.168.102.101 (Ad-Hoc site)
+. 2017-03-27 14:18:52.577 Host name: 192.168.102.101 (Port: 22)
+. 2017-03-27 14:18:52.577 User name: scada (Password: Yes, Key file: No)
+. 2017-03-27 14:18:52.577 Tunnel: No
+. 2017-03-27 14:18:52.577 Transfer Protocol: SFTP
+. 2017-03-27 14:18:52.577 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-03-27 14:18:52.577 Disable Nagle: No
+. 2017-03-27 14:18:52.577 Proxy: none
+. 2017-03-27 14:18:52.577 Send buffer: 262144
+. 2017-03-27 14:18:52.577 SSH protocol version: 2; Compression: No
+. 2017-03-27 14:18:52.577 Bypass authentication: No
+. 2017-03-27 14:18:52.577 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-03-27 14:18:52.577 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-03-27 14:18:52.577 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-03-27 14:18:52.577 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A,A
+. 2017-03-27 14:18:52.577 Simple channel: Yes
+. 2017-03-27 14:18:52.577 Return code variable: Autodetect; Lookup user groups: A
+. 2017-03-27 14:18:52.577 Shell: default
+. 2017-03-27 14:18:52.577 EOL: 0, UTF: 2
+. 2017-03-27 14:18:52.577 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-03-27 14:18:52.577 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-03-27 14:18:52.577 SFTP Bugs: A,A
+. 2017-03-27 14:18:52.577 SFTP Server: default
+. 2017-03-27 14:18:52.577 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-03-27 14:18:52.577 Cache directory changes: Yes, Permanent: Yes
+. 2017-03-27 14:18:52.577 DST mode: 1
+. 2017-03-27 14:18:52.577 --------------------------------------------------------------------------
+. 2017-03-27 14:18:52.577 Looking up host "192.168.102.101"
+. 2017-03-27 14:18:52.577 Connecting to 192.168.102.101 port 22
+. 2017-03-27 14:18:52.593 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.1
+. 2017-03-27 14:18:52.593 Using SSH protocol version 2
+. 2017-03-27 14:18:52.593 We claim version: SSH-2.0-WinSCP_release_5.7.7
+. 2017-03-27 14:18:52.593 Doing Diffie-Hellman group exchange
+. 2017-03-27 14:18:52.608 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2017-03-27 14:18:54.280 Verifying host key rsa2 0x10001,0xb550f0a6ea8860c2 90844764f43b1c47 b6b9a44ea1d04948 da06515fd4406000 e7b68752cc52dc41 0bfff365cbbfd87d 0db03cc42e8b6570 9e88562b0f6eb2c3 cc11718dd5f6ff85 4898b543caa49b6f 745885a042813f2f dc695a8496261011 d1c002ec6dcfa687 f1f6cd7b14733f4b 0c12b49e8d039c31 398be0602786f682 53e99ac6e00e71f8 cfa8ea75bc245bf6 38d41c19f3acb8f1 c82883cac4ae57c8 a54f81736577088d 2b7933ab690e1370 197861f7d119545d e4a75dd8caef5c17 ecd3418efd11030d 6d609a54f0b1ba6e ef935332dd6eeefe 33448b1861cc0061 484309b9f375b0a1 7da1e681e479eea7 2b4fde271965e245 a82e27b2e461f339  with fingerprint ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:18:54.280 Host key matches cached key
+. 2017-03-27 14:18:54.280 Host key fingerprint is:
+. 2017-03-27 14:18:54.280 ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:18:54.280 Initialised AES-256 SDCTR client->server encryption
+. 2017-03-27 14:18:54.280 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-03-27 14:18:54.280 Initialised AES-256 SDCTR server->client encryption
+. 2017-03-27 14:18:54.280 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-03-27 14:18:54.327 Using username "scada".
+. 2017-03-27 14:18:54.327 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-03-27 14:18:54.327 Using stored password.
+. 2017-03-27 14:18:54.327 Sent password
+. 2017-03-27 14:18:54.343 Access granted
+. 2017-03-27 14:18:54.343 Opening session as main channel
+. 2017-03-27 14:18:54.577 Opened main channel
+. 2017-03-27 14:18:54.577 Started a shell/command
+. 2017-03-27 14:18:54.577 --------------------------------------------------------------------------
+. 2017-03-27 14:18:54.577 Using SFTP protocol.
+. 2017-03-27 14:18:54.577 Doing startup conversation with host.
+> 2017-03-27 14:18:54.577 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-03-27 14:18:54.577 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2017-03-27 14:18:54.577 SFTP version 3 negotiated.
+. 2017-03-27 14:18:54.577 Unknown server extension posix-rename@openssh.com="1"
+. 2017-03-27 14:18:54.577 Supports statvfs@openssh.com extension version "2"
+. 2017-03-27 14:18:54.577 Unknown server extension fstatvfs@openssh.com="2"
+. 2017-03-27 14:18:54.577 Supports hardlink@openssh.com extension version "1"
+. 2017-03-27 14:18:54.577 Unknown server extension fsync@openssh.com="1"
+. 2017-03-27 14:18:54.577 We believe the server has signed timestamps bug
+. 2017-03-27 14:18:54.577 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-03-27 14:18:54.577 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2017-03-27 14:18:54.577 Getting current directory name.
+. 2017-03-27 14:18:54.577 Getting real path for '.'
+> 2017-03-27 14:18:54.577 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-03-27 14:18:54.577 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-03-27 14:18:54.577 Real path is '/'
+. 2017-03-27 14:18:54.577 Startup conversation with host finished.
+< 2017-03-27 14:18:54.577 Script: Active session: [1] scada@192.168.102.101
+> 2017-03-27 14:18:54.577 Script: put c:\ABB\DE400\DE400.xml /NMSdata
+. 2017-03-27 14:18:54.577 Copying 1 files/directories to remote directory "/"
+. 2017-03-27 14:18:54.577   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: NMSdata
+. 2017-03-27 14:18:54.577   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-03-27 14:18:54.577   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-03-27 14:18:54.577 File: 'c:\ABB\DE400\DE400.xml' [2016-06-22T09:16:24.000Z] [5619]
+. 2017-03-27 14:18:54.577 Copying "c:\ABB\DE400\DE400.xml" to remote directory started.
+. 2017-03-27 14:18:54.577 Binary transfer mode selected.
+. 2017-03-27 14:18:54.577 Opening remote file.
+> 2017-03-27 14:18:54.577 Type: SSH_FXP_OPEN, Size: 33, Number: 259
+< 2017-03-27 14:18:54.577 Type: SSH_FXP_STATUS, Size: 24, Number: 259
+< 2017-03-27 14:18:54.577 Status code: 4, Message: 259, Server: Failure, Language:  
+> 2017-03-27 14:18:54.577 Type: SSH_FXP_LSTAT, Size: 17, Number: 519
+< 2017-03-27 14:18:54.577 Type: SSH_FXP_ATTRS, Size: 37, Number: 519
+* 2017-03-27 14:18:54.577 (ETerminal) General failure (server should provide error description).
+* 2017-03-27 14:18:54.577 Error code: 4
+* 2017-03-27 14:18:54.577 Error message from server: Failure
+. 2017-03-27 14:18:54.577 Asking user:
+. 2017-03-27 14:18:54.577 Cannot overwrite remote file '/NMSdata'.$$
+. 2017-03-27 14:18:54.577  
+. 2017-03-27 14:18:54.577 Press 'Delete' to delete the file and create new one instead of overwriting it.$$ ("General failure (server should provide error description).
+. 2017-03-27 14:18:54.577 Error code: 4
+. 2017-03-27 14:18:54.577 Error message from server: Failure")
+< 2017-03-27 14:18:54.577 Script: Cannot overwrite remote file '/NMSdata'.
+< 2017-03-27 14:18:54.577 Script: General failure (server should provide error description).
+< 2017-03-27 14:18:54.577 Error code: 4
+< 2017-03-27 14:18:54.577 Error message from server: Failure
+* 2017-03-27 14:18:54.577 (EScpSkipFile) Cannot overwrite remote file '/NMSdata'.$$
+* 2017-03-27 14:18:54.577  
+* 2017-03-27 14:18:54.577 Press 'Delete' to delete the file and create new one instead of overwriting it.$$
+* 2017-03-27 14:18:54.577 General failure (server should provide error description).
+* 2017-03-27 14:18:54.577 Error code: 4
+* 2017-03-27 14:18:54.577 Error message from server: Failure
+. 2017-03-27 14:18:54.577 Script: Failed
+. 2017-03-27 14:18:54.577 Script: Exit code: 1
+. 2017-03-27 14:18:54.577 Closing connection.
+. 2017-03-27 14:18:54.577 Sending special code: 12
+. 2017-03-27 14:18:54.577 Sent EOF message
+. 2017-03-27 14:20:23.337 --------------------------------------------------------------------------
+. 2017-03-27 14:20:23.337 WinSCP Version 5.7.7 (Build 6257) (OS 6.3.9600 - Windows Server 2012 R2 Standard)
+. 2017-03-27 14:20:23.337 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2017-03-27 14:20:23.337 Log level: Normal
+. 2017-03-27 14:20:23.337 Local account: BLDDE01\Administrator
+. 2017-03-27 14:20:23.337 Working directory: C:\Windows\system32
+. 2017-03-27 14:20:23.337 Process ID: 2824
+. 2017-03-27 14:20:23.337 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /log=c:\temp\winscp.log /command "open sftp://scada:Uplo4d1ng@192.168.102.101" "put c:\ABB\DE400\DE400.xml /NMSdata/" "exit"
+. 2017-03-27 14:20:23.337 Time zone: Current: GMT+2, Standard: GMT+1 (W. Europe Standard Time), DST: GMT+2 (W. Europe Daylight Time), DST Start: 3/26/2017, DST End: 10/29/2017
+. 2017-03-27 14:20:23.337 Login time: Monday, March 27, 2017 2:20:23 PM
+. 2017-03-27 14:20:23.337 --------------------------------------------------------------------------
+. 2017-03-27 14:20:23.337 Script: Retrospectively logging previous script records:
+> 2017-03-27 14:20:23.337 Script: open sftp://scada:***@192.168.102.101
+. 2017-03-27 14:20:23.337 --------------------------------------------------------------------------
+. 2017-03-27 14:20:23.337 Session name: scada@192.168.102.101 (Ad-Hoc site)
+. 2017-03-27 14:20:23.337 Host name: 192.168.102.101 (Port: 22)
+. 2017-03-27 14:20:23.337 User name: scada (Password: Yes, Key file: No)
+. 2017-03-27 14:20:23.337 Tunnel: No
+. 2017-03-27 14:20:23.337 Transfer Protocol: SFTP
+. 2017-03-27 14:20:23.337 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-03-27 14:20:23.337 Disable Nagle: No
+. 2017-03-27 14:20:23.337 Proxy: none
+. 2017-03-27 14:20:23.337 Send buffer: 262144
+. 2017-03-27 14:20:23.337 SSH protocol version: 2; Compression: No
+. 2017-03-27 14:20:23.337 Bypass authentication: No
+. 2017-03-27 14:20:23.337 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-03-27 14:20:23.337 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-03-27 14:20:23.337 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-03-27 14:20:23.337 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A,A
+. 2017-03-27 14:20:23.337 Simple channel: Yes
+. 2017-03-27 14:20:23.337 Return code variable: Autodetect; Lookup user groups: A
+. 2017-03-27 14:20:23.337 Shell: default
+. 2017-03-27 14:20:23.337 EOL: 0, UTF: 2
+. 2017-03-27 14:20:23.337 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-03-27 14:20:23.337 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-03-27 14:20:23.337 SFTP Bugs: A,A
+. 2017-03-27 14:20:23.337 SFTP Server: default
+. 2017-03-27 14:20:23.337 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-03-27 14:20:23.337 Cache directory changes: Yes, Permanent: Yes
+. 2017-03-27 14:20:23.337 DST mode: 1
+. 2017-03-27 14:20:23.337 --------------------------------------------------------------------------
+. 2017-03-27 14:20:23.337 Looking up host "192.168.102.101"
+. 2017-03-27 14:20:23.337 Connecting to 192.168.102.101 port 22
+. 2017-03-27 14:20:23.353 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.1
+. 2017-03-27 14:20:23.353 Using SSH protocol version 2
+. 2017-03-27 14:20:23.353 We claim version: SSH-2.0-WinSCP_release_5.7.7
+. 2017-03-27 14:20:23.353 Doing Diffie-Hellman group exchange
+. 2017-03-27 14:20:23.368 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2017-03-27 14:20:25.118 Verifying host key rsa2 0x10001,0xb550f0a6ea8860c2 90844764f43b1c47 b6b9a44ea1d04948 da06515fd4406000 e7b68752cc52dc41 0bfff365cbbfd87d 0db03cc42e8b6570 9e88562b0f6eb2c3 cc11718dd5f6ff85 4898b543caa49b6f 745885a042813f2f dc695a8496261011 d1c002ec6dcfa687 f1f6cd7b14733f4b 0c12b49e8d039c31 398be0602786f682 53e99ac6e00e71f8 cfa8ea75bc245bf6 38d41c19f3acb8f1 c82883cac4ae57c8 a54f81736577088d 2b7933ab690e1370 197861f7d119545d e4a75dd8caef5c17 ecd3418efd11030d 6d609a54f0b1ba6e ef935332dd6eeefe 33448b1861cc0061 484309b9f375b0a1 7da1e681e479eea7 2b4fde271965e245 a82e27b2e461f339  with fingerprint ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:20:25.118 Host key matches cached key
+. 2017-03-27 14:20:25.118 Host key fingerprint is:
+. 2017-03-27 14:20:25.118 ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:20:25.118 Initialised AES-256 SDCTR client->server encryption
+. 2017-03-27 14:20:25.118 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-03-27 14:20:25.118 Initialised AES-256 SDCTR server->client encryption
+. 2017-03-27 14:20:25.118 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-03-27 14:20:25.150 Using username "scada".
+. 2017-03-27 14:20:25.150 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-03-27 14:20:25.150 Using stored password.
+. 2017-03-27 14:20:25.150 Sent password
+. 2017-03-27 14:20:25.181 Access granted
+. 2017-03-27 14:20:25.181 Opening session as main channel
+. 2017-03-27 14:20:25.431 Opened main channel
+. 2017-03-27 14:20:25.431 Started a shell/command
+. 2017-03-27 14:20:25.431 --------------------------------------------------------------------------
+. 2017-03-27 14:20:25.431 Using SFTP protocol.
+. 2017-03-27 14:20:25.431 Doing startup conversation with host.
+> 2017-03-27 14:20:25.431 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-03-27 14:20:25.431 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2017-03-27 14:20:25.431 SFTP version 3 negotiated.
+. 2017-03-27 14:20:25.431 Unknown server extension posix-rename@openssh.com="1"
+. 2017-03-27 14:20:25.431 Supports statvfs@openssh.com extension version "2"
+. 2017-03-27 14:20:25.431 Unknown server extension fstatvfs@openssh.com="2"
+. 2017-03-27 14:20:25.431 Supports hardlink@openssh.com extension version "1"
+. 2017-03-27 14:20:25.431 Unknown server extension fsync@openssh.com="1"
+. 2017-03-27 14:20:25.431 We believe the server has signed timestamps bug
+. 2017-03-27 14:20:25.431 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-03-27 14:20:25.431 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2017-03-27 14:20:25.431 Getting current directory name.
+. 2017-03-27 14:20:25.431 Getting real path for '.'
+> 2017-03-27 14:20:25.431 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-03-27 14:20:25.431 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-03-27 14:20:25.431 Real path is '/'
+. 2017-03-27 14:20:25.431 Startup conversation with host finished.
+< 2017-03-27 14:20:25.431 Script: Active session: [1] scada@192.168.102.101
+> 2017-03-27 14:20:25.431 Script: put c:\ABB\DE400\DE400.xml /NMSdata/
+. 2017-03-27 14:20:25.431 Copying 1 files/directories to remote directory "/NMSdata/"
+. 2017-03-27 14:20:25.431   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2017-03-27 14:20:25.431   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-03-27 14:20:25.431   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-03-27 14:20:25.431 File: 'c:\ABB\DE400\DE400.xml' [2016-06-22T09:16:24.000Z] [5619]
+. 2017-03-27 14:20:25.431 Copying "c:\ABB\DE400\DE400.xml" to remote directory started.
+. 2017-03-27 14:20:25.431 Binary transfer mode selected.
+. 2017-03-27 14:20:25.431 Opening remote file.
+> 2017-03-27 14:20:25.431 Type: SSH_FXP_OPEN, Size: 43, Number: 259
+< 2017-03-27 14:20:25.431 Type: SSH_FXP_HANDLE, Size: 13, Number: 259
+> 2017-03-27 14:20:25.431 Type: SSH_FXP_WRITE, Size: 4121, Number: 774
+. 2017-03-27 14:20:25.462 2 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2017-03-27 14:20:25.462 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+> 2017-03-27 14:20:25.462 Type: SSH_FXP_SETSTAT, Size: 39, Number: 521
+< 2017-03-27 14:20:25.462 Type: SSH_FXP_STATUS, Size: 24, Number: 1030
+< 2017-03-27 14:20:25.462 Type: SSH_FXP_STATUS, Size: 24, Number: 1284
+< 2017-03-27 14:20:25.462 Status code: 0
+. 2017-03-27 14:20:25.462 Preserving timestamp [2016-06-22T09:16:24.000Z]
+< 2017-03-27 14:20:25.462 Type: SSH_FXP_STATUS, Size: 24, Number: 521
+< 2017-03-27 14:20:25.462 Status code: 0
+. 2017-03-27 14:20:25.462 Transfer done: 'c:\ABB\DE400\DE400.xml' [5619]
+> 2017-03-27 14:20:25.462 Script: exit
+. 2017-03-27 14:20:25.462 Script: Exit code: 0
+. 2017-03-27 14:20:25.462 Closing connection.
+. 2017-03-27 14:20:25.462 Sending special code: 12
+. 2017-03-27 14:20:25.462 Sent EOF message
+. 2017-03-27 14:20:53.922 --------------------------------------------------------------------------
+. 2017-03-27 14:20:53.922 WinSCP Version 5.7.7 (Build 6257) (OS 6.3.9600 - Windows Server 2012 R2 Standard)
+. 2017-03-27 14:20:53.922 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+. 2017-03-27 14:20:53.922 Log level: Normal
+. 2017-03-27 14:20:53.922 Local account: BLDDE01\Administrator
+. 2017-03-27 14:20:53.922 Working directory: C:\Windows\system32
+. 2017-03-27 14:20:53.922 Process ID: 3472
+. 2017-03-27 14:20:53.922 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /log=c:\temp\winscp.log /command "open sftp://scada:Uplo4d1ng@192.168.102.101" "put c:\ABB\DE400\DE400.xml /NMSdata/" "exit"
+. 2017-03-27 14:20:53.922 Time zone: Current: GMT+2, Standard: GMT+1 (W. Europe Standard Time), DST: GMT+2 (W. Europe Daylight Time), DST Start: 3/26/2017, DST End: 10/29/2017
+. 2017-03-27 14:20:53.922 Login time: Monday, March 27, 2017 2:20:53 PM
+. 2017-03-27 14:20:53.922 --------------------------------------------------------------------------
+. 2017-03-27 14:20:53.922 Script: Retrospectively logging previous script records:
+> 2017-03-27 14:20:53.922 Script: open sftp://scada:***@192.168.102.101
+. 2017-03-27 14:20:53.922 --------------------------------------------------------------------------
+. 2017-03-27 14:20:53.922 Session name: scada@192.168.102.101 (Ad-Hoc site)
+. 2017-03-27 14:20:53.922 Host name: 192.168.102.101 (Port: 22)
+. 2017-03-27 14:20:53.922 User name: scada (Password: Yes, Key file: No)
+. 2017-03-27 14:20:53.922 Tunnel: No
+. 2017-03-27 14:20:53.922 Transfer Protocol: SFTP
+. 2017-03-27 14:20:53.922 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2017-03-27 14:20:53.922 Disable Nagle: No
+. 2017-03-27 14:20:53.922 Proxy: none
+. 2017-03-27 14:20:53.922 Send buffer: 262144
+. 2017-03-27 14:20:53.922 SSH protocol version: 2; Compression: No
+. 2017-03-27 14:20:53.922 Bypass authentication: No
+. 2017-03-27 14:20:53.922 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2017-03-27 14:20:53.922 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2017-03-27 14:20:53.922 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2017-03-27 14:20:53.922 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A,A
+. 2017-03-27 14:20:53.922 Simple channel: Yes
+. 2017-03-27 14:20:53.922 Return code variable: Autodetect; Lookup user groups: A
+. 2017-03-27 14:20:53.922 Shell: default
+. 2017-03-27 14:20:53.922 EOL: 0, UTF: 2
+. 2017-03-27 14:20:53.922 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2017-03-27 14:20:53.922 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2017-03-27 14:20:53.922 SFTP Bugs: A,A
+. 2017-03-27 14:20:53.922 SFTP Server: default
+. 2017-03-27 14:20:53.922 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2017-03-27 14:20:53.922 Cache directory changes: Yes, Permanent: Yes
+. 2017-03-27 14:20:53.922 DST mode: 1
+. 2017-03-27 14:20:53.922 --------------------------------------------------------------------------
+. 2017-03-27 14:20:53.922 Looking up host "192.168.102.101"
+. 2017-03-27 14:20:53.922 Connecting to 192.168.102.101 port 22
+. 2017-03-27 14:20:53.938 Server version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.1
+. 2017-03-27 14:20:53.938 Using SSH protocol version 2
+. 2017-03-27 14:20:53.938 We claim version: SSH-2.0-WinSCP_release_5.7.7
+. 2017-03-27 14:20:53.938 Doing Diffie-Hellman group exchange
+. 2017-03-27 14:20:53.954 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2017-03-27 14:20:55.579 Verifying host key rsa2 0x10001,0xb550f0a6ea8860c2 90844764f43b1c47 b6b9a44ea1d04948 da06515fd4406000 e7b68752cc52dc41 0bfff365cbbfd87d 0db03cc42e8b6570 9e88562b0f6eb2c3 cc11718dd5f6ff85 4898b543caa49b6f 745885a042813f2f dc695a8496261011 d1c002ec6dcfa687 f1f6cd7b14733f4b 0c12b49e8d039c31 398be0602786f682 53e99ac6e00e71f8 cfa8ea75bc245bf6 38d41c19f3acb8f1 c82883cac4ae57c8 a54f81736577088d 2b7933ab690e1370 197861f7d119545d e4a75dd8caef5c17 ecd3418efd11030d 6d609a54f0b1ba6e ef935332dd6eeefe 33448b1861cc0061 484309b9f375b0a1 7da1e681e479eea7 2b4fde271965e245 a82e27b2e461f339  with fingerprint ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:20:55.579 Host key matches cached key
+. 2017-03-27 14:20:55.579 Host key fingerprint is:
+. 2017-03-27 14:20:55.579 ssh-rsa 2048 71:5a:a6:c1:b7:88:60:83:32:34:62:7d:2d:4d:1b:cb
+. 2017-03-27 14:20:55.579 Initialised AES-256 SDCTR client->server encryption
+. 2017-03-27 14:20:55.579 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2017-03-27 14:20:55.579 Initialised AES-256 SDCTR server->client encryption
+. 2017-03-27 14:20:55.579 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2017-03-27 14:20:55.625 Using username "scada".
+. 2017-03-27 14:20:55.625 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2017-03-27 14:20:55.625 Using stored password.
+. 2017-03-27 14:20:55.625 Sent password
+. 2017-03-27 14:20:55.641 Access granted
+. 2017-03-27 14:20:55.641 Opening session as main channel
+. 2017-03-27 14:20:55.907 Opened main channel
+. 2017-03-27 14:20:55.907 Started a shell/command
+. 2017-03-27 14:20:55.907 --------------------------------------------------------------------------
+. 2017-03-27 14:20:55.907 Using SFTP protocol.
+. 2017-03-27 14:20:55.907 Doing startup conversation with host.
+> 2017-03-27 14:20:55.907 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2017-03-27 14:20:55.907 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2017-03-27 14:20:55.907 SFTP version 3 negotiated.
+. 2017-03-27 14:20:55.907 Unknown server extension posix-rename@openssh.com="1"
+. 2017-03-27 14:20:55.907 Supports statvfs@openssh.com extension version "2"
+. 2017-03-27 14:20:55.907 Unknown server extension fstatvfs@openssh.com="2"
+. 2017-03-27 14:20:55.907 Supports hardlink@openssh.com extension version "1"
+. 2017-03-27 14:20:55.907 Unknown server extension fsync@openssh.com="1"
+. 2017-03-27 14:20:55.907 We believe the server has signed timestamps bug
+. 2017-03-27 14:20:55.907 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2017-03-27 14:20:55.907 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2017-03-27 14:20:55.907 Getting current directory name.
+. 2017-03-27 14:20:55.907 Getting real path for '.'
+> 2017-03-27 14:20:55.907 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2017-03-27 14:20:55.907 Type: SSH_FXP_NAME, Size: 23, Number: 16
+. 2017-03-27 14:20:55.907 Real path is '/'
+. 2017-03-27 14:20:55.907 Startup conversation with host finished.
+< 2017-03-27 14:20:55.907 Script: Active session: [1] scada@192.168.102.101
+> 2017-03-27 14:20:55.907 Script: put c:\ABB\DE400\DE400.xml /NMSdata/
+. 2017-03-27 14:20:55.907 Copying 1 files/directories to remote directory "/NMSdata/"
+. 2017-03-27 14:20:55.907   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2017-03-27 14:20:55.907   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: ; ResumeL: 0
+. 2017-03-27 14:20:55.907   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2017-03-27 14:20:55.907 File: 'c:\ABB\DE400\DE400.xml' [2016-06-22T09:16:24.000Z] [5619]
+. 2017-03-27 14:20:55.907 Copying "c:\ABB\DE400\DE400.xml" to remote directory started.
+. 2017-03-27 14:20:55.907 Binary transfer mode selected.
+. 2017-03-27 14:20:55.907 Opening remote file.
+> 2017-03-27 14:20:55.907 Type: SSH_FXP_OPEN, Size: 43, Number: 259
+< 2017-03-27 14:20:55.907 Type: SSH_FXP_HANDLE, Size: 13, Number: 259
+> 2017-03-27 14:20:55.907 Type: SSH_FXP_WRITE, Size: 4121, Number: 774
+. 2017-03-27 14:20:55.907 1 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+> 2017-03-27 14:20:55.907 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+> 2017-03-27 14:20:55.907 Type: SSH_FXP_SETSTAT, Size: 39, Number: 521
+< 2017-03-27 14:20:55.907 Type: SSH_FXP_STATUS, Size: 24, Number: 774
+< 2017-03-27 14:20:55.907 Type: SSH_FXP_STATUS, Size: 24, Number: 1030
+< 2017-03-27 14:20:55.907 Type: SSH_FXP_STATUS, Size: 24, Number: 1284
+< 2017-03-27 14:20:55.907 Status code: 0
+. 2017-03-27 14:20:55.907 Preserving timestamp [2016-06-22T09:16:24.000Z]
+< 2017-03-27 14:20:55.907 Type: SSH_FXP_STATUS, Size: 24, Number: 521
+< 2017-03-27 14:20:55.907 Status code: 0
+. 2017-03-27 14:20:55.907 Transfer done: 'c:\ABB\DE400\DE400.xml' [5619]
+> 2017-03-27 14:20:55.907 Script: exit
+. 2017-03-27 14:20:55.907 Script: Exit code: 0
+. 2017-03-27 14:20:55.907 Closing connection.
+. 2017-03-27 14:20:55.907 Sending special code: 12
+. 2017-03-27 14:20:55.907 Sent EOF message

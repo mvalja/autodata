@@ -1,0 +1,66 @@
+  UNIT                               LOAD   ACTIVE SUB     DESCRIPTION
+  abrt-ccpp.service                  loaded active exited  Install ABRT coredump hook
+  abrt-oops.service                  loaded active running ABRT kernel log watcher
+  abrt-xorg.service                  loaded active running ABRT Xorg log watcher
+  abrtd.service                      loaded active running ABRT Automated Bug Reporting Tool
+  atd.service                        loaded active running Job spooling tools
+  auditd.service                     loaded active running Security Auditing Service
+  chronyd.service                    loaded active running NTP client/server
+  crond.service                      loaded active running Command Scheduler
+  dbora.service                      loaded active exited  Oracle Server
+  dbus.service                       loaded active running D-Bus System Message Bus
+  getty@tty1.service                 loaded active running Getty on tty1
+  gssproxy.service                   loaded active running GSSAPI Proxy Daemon
+  iptables.service                   loaded active exited  IPv4 firewall with iptables
+  irqbalance.service                 loaded active running irqbalance daemon
+  kdump.service                      loaded active exited  Crash recovery kernel arming
+  kmod-static-nodes.service          loaded active exited  Create list of required static device nodes for the current kernel
+  lm_sensors.service                 loaded active exited  Initialize hardware monitoring sensors
+  lvm2-lvmetad.service               loaded active running LVM2 metadata daemon
+  lvm2-monitor.service               loaded active exited  Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+  lvm2-pvscan@8:17.service           loaded active exited  LVM2 PV scan on device 8:17
+  lvm2-pvscan@8:2.service            loaded active exited  LVM2 PV scan on device 8:2
+  network.service                    loaded active exited  LSB: Bring up/down networking
+  NetworkManager.service             loaded active running Network Manager
+  nfs-config.service                 loaded active exited  Preprocess NFS configuration
+  nm_scada.service                   loaded active running NM_SCADA Server
+  nmproxy.service                    loaded active running NM AD proxy
+  nmproxysup.service                 loaded active running NM AD proxy supervisor
+  polkit.service                     loaded active running Authorization Manager
+  rhel-dmesg.service                 loaded active exited  Dump dmesg to /var/log/dmesg
+  rhel-import-state.service          loaded active exited  Import network configuration from initramfs
+  rhel-readonly.service              loaded active exited  Configure read-only root support
+* rhnsd.service                      loaded failed failed  LSB: Starts the Spacewalk Daemon
+  rngd.service                       loaded active running Hardware RNG Entropy Gatherer Daemon
+  rpc-gssd.service                   loaded active running RPC security service for NFS client and server
+  rpc-statd.service                  loaded active running NFS status monitor for NFSv2/3 locking.
+  rpcbind.service                    loaded active running RPC bind service
+  rsyslog.service                    loaded active running System Logging Service
+  smartd.service                     loaded active running Self Monitoring and Reporting Technology (SMART) Daemon
+  snmpd.service                      loaded active running Simple Network Management Protocol (SNMP) Daemon.
+  sshd.service                       loaded active running OpenSSH server daemon
+  sssd.service                       loaded active running System Security Services Daemon
+  sysstat.service                    loaded active exited  Resets System Activity Logs
+  systemd-binfmt.service             loaded active exited  Set Up Additional Binary Formats
+  systemd-journal-flush.service      loaded active exited  Flush Journal to Persistent Storage
+  systemd-journald.service           loaded active running Journal Service
+  systemd-logind.service             loaded active running Login Service
+  systemd-random-seed.service        loaded active exited  Load/Save Random Seed
+  systemd-remount-fs.service         loaded active exited  Remount Root and Kernel File Systems
+  systemd-sysctl.service             loaded active exited  Apply Kernel Variables
+  systemd-tmpfiles-setup-dev.service loaded active exited  Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service     loaded active exited  Create Volatile Files and Directories
+  systemd-udev-trigger.service       loaded active exited  udev Coldplug all Devices
+  systemd-udevd.service              loaded active running udev Kernel Device Manager
+  systemd-update-utmp.service        loaded active exited  Update UTMP about System Boot/Shutdown
+  systemd-user-sessions.service      loaded active exited  Permit User Sessions
+  systemd-vconsole-setup.service     loaded active exited  Setup Virtual Console
+  vmtoolsd.service                   loaded active running Service for virtual machines hosted on VMware
+  wpa_supplicant.service             loaded active running WPA Supplicant daemon
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+58 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.

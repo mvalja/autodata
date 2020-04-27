@@ -1,0 +1,4 @@
+ID,Status,IP,Name,Location,Contact,Latitude,Longitude,GPS Status,Software Version,Model,Type,Uptime,Synchronized on,Comments
+"249956","/webclient/common/images/severity_clear.gif","10.1.1.11","Process-GW","KTH","www.kth.se","37.392579","-122.031831","","8.3.0.9","6420","Gateway","4 days 18 hours 42 minutes 47 seconds","Apr 12, 2017 10:55:19 AM",""
+"249955","/webclient/common/images/severity_clear.gif","10.1.1.15","Substation","KTH","www.kth.se","37.392579","-122.031831","","8.3.0.9","6420","Node","4 hours 11 minutes 47 seconds","Apr 12, 2017 05:56:07 PM",""
+"249949","/webclient/common/images/severity_critical.gif","10.1.1.21","Management","Sunnyvale,CA","www.troposnetworks.com","37.392579","-122.031831","","8.1.1.2","6420","Gateway","20 minutes 42 seconds","Apr 10, 2017 05:03:35 PM",""

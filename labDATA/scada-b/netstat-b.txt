@@ -1,0 +1,48 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:6408            0.0.0.0:*               LISTEN      10607/adtServer     
+tcp        0      0 0.0.0.0:58826           0.0.0.0:*               LISTEN      1268/rpc.statd      
+tcp        0      0 0.0.0.0:6251            0.0.0.0:*               LISTEN      9784/rcs100         
+tcp        0      0 0.0.0.0:6252            0.0.0.0:*               LISTEN      9787/hdtsrv         
+tcp        0      0 0.0.0.0:749             0.0.0.0:*               LISTEN      791/nmproxy         
+tcp        0      0 0.0.0.0:2222            0.0.0.0:*               LISTEN      9770/wabhab         
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      1411/rpcbind        
+tcp        0      0 0.0.0.0:6224            0.0.0.0:*               LISTEN      9752/SupervisionSrv 
+tcp        0      0 0.0.0.0:6225            0.0.0.0:*               LISTEN      9757/wabdc0         
+tcp        0      0 0.0.0.0:6226            0.0.0.0:*               LISTEN      9759/wabdc1         
+tcp        0      0 0.0.0.0:6258            0.0.0.0:*               LISTEN      9758/wabjml         
+tcp        0      0 0.0.0.0:6227            0.0.0.0:*               LISTEN      9756/wabdc2         
+tcp        0      0 0.0.0.0:6228            0.0.0.0:*               LISTEN      9777/wabdc4         
+tcp        0      0 0.0.0.0:6229            0.0.0.0:*               LISTEN      9760/wabdc5         
+tcp        0      0 0.0.0.0:6230            0.0.0.0:*               LISTEN      9761/wabdc6         
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1186/sshd           
+tcp        0      0 0.0.0.0:6231            0.0.0.0:*               LISTEN      9762/wabdcb         
+tcp        0      0 0.0.0.0:6232            0.0.0.0:*               LISTEN      9763/cmpsrv         
+tcp        0      0 0.0.0.0:88              0.0.0.0:*               LISTEN      791/nmproxy         
+tcp        0      0 0.0.0.0:6265            0.0.0.0:*               LISTEN      10507/wabk66        
+tcp        0      0 0.0.0.0:6201            0.0.0.0:*               LISTEN      9697/waba0610       
+tcp        0      0 0.0.0.0:2233            0.0.0.0:*               LISTEN      1/systemd           
+tcp        0      0 0.0.0.0:6202            0.0.0.0:*               LISTEN      9695/waba20         
+tcp        0      0 0.0.0.0:2236            0.0.0.0:*               LISTEN      9689/dcfns          
+tcp        0      0 0.0.0.0:6205            0.0.0.0:*               LISTEN      9778/AuthSrv        
+tcp        0      0 0.0.0.0:6206            0.0.0.0:*               LISTEN      10869/AuthNotifier  
+tcp        0      0 0.0.0.0:6207            0.0.0.0:*               LISTEN      9792/SISSrv         
+tcp        0      0 0.0.0.0:2241            0.0.0.0:*               LISTEN      1/systemd           
+tcp        0      0 0.0.0.0:2242            0.0.0.0:*               LISTEN      1/systemd           
+tcp        0      0 0.0.0.0:4357            0.0.0.0:*               LISTEN      9698/wabt16         
+tcp        0      0 0.0.0.0:389             0.0.0.0:*               LISTEN      791/nmproxy         
+tcp        0      0 0.0.0.0:4359            0.0.0.0:*               LISTEN      9786/hdbserver      
+tcp        0      0 127.0.0.1:199           0.0.0.0:*               LISTEN      1187/snmpd          
+udp        0      0 0.0.0.0:59153           0.0.0.0:*                           1268/rpc.statd      
+udp        0      0 127.0.0.1:6200          0.0.0.0:*                           9669/waba31         
+udp        0      0 192.168.109.22:6204     0.0.0.0:*                           9691/wabgc2         
+udp   165952      0 192.168.109.22:6217     0.0.0.0:*                           9668/waba6810       
+udp        0      0 0.0.0.0:88              0.0.0.0:*                           791/nmproxy         
+udp        0      0 0.0.0.0:111             0.0.0.0:*                           1411/rpcbind        
+udp        0      0 0.0.0.0:161             0.0.0.0:*                           1187/snmpd          
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           839/chronyd         
+udp        0      0 0.0.0.0:705             0.0.0.0:*                           1411/rpcbind        
+udp        0      0 0.0.0.0:56185           0.0.0.0:*                           9661/a07supervisor  
+udp        0      0 0.0.0.0:62426           0.0.0.0:*                           9691/wabgc2         
+udp        0      0 127.0.0.1:1020          0.0.0.0:*                           1268/rpc.statd      
+udp        0      0 0.0.0.0:58427           0.0.0.0:*                           791/nmproxy         

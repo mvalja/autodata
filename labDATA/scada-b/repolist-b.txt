@@ -1,0 +1,3 @@
+Loaded plugins: fastestmirror, product-id
+Loading mirror speeds from cached hostfile
+repolist: 0

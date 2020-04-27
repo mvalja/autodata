@@ -1,0 +1,30 @@
+netconsole module not loaded
+Configured devices:
+lo eth0 eth0_ORIG
+Currently active devices:
+lo eth0
+* nmproxy.service - NM AD proxy
+   Loaded: loaded (/etc/systemd/system/nmproxy.service; enabled; vendor preset: disabled)
+   Active: active (running) since Thu 2017-03-23 14:44:31 CET; 4 days ago
+ Main PID: 850 (nmproxy)
+   CGroup: /system.slice/nmproxy.service
+           `-850 /usr/local/bin/nmproxy
+
+Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
+* nmproxysup.service - NM AD proxy supervisor
+   Loaded: loaded (/etc/systemd/system/nmproxysup.service; enabled; vendor preset: disabled)
+   Active: active (running) since Thu 2017-03-23 14:44:31 CET; 4 days ago
+ Main PID: 851 (nmproxysup)
+   CGroup: /system.slice/nmproxysup.service
+           `-851 /usr/local/bin/nmproxysup
+
+Mar 28 09:26:07 bldas01 nmproxysup[851]: # ---  Info End   ---
+Mar 28 09:26:07 bldas01 nmproxysup[851]: Currently connected system:
+Mar 28 09:26:07 bldas01 nmproxysup[851]: NetworkManager 9.0.0 Jun 20 2016
+Mar 28 09:26:07 bldas01 nmproxysup[851]: Current operation mode:
+Mar 28 09:26:07 bldas01 nmproxysup[851]: online
+Mar 28 09:26:07 bldas01 nmproxysup[851]: Last login: Tue Mar 28 09:25:04 CEST 2017
+Mar 28 09:26:07 bldas01 su[26014]: (to oracle) root on none
+Mar 28 09:26:08 bldas01 nmproxysup[851]: Last login: Tue Mar 28 09:25:04 CEST 2017
+Mar 28 09:26:08 bldas01 su[26046]: (to oracle) root on none
+Mar 28 09:26:08 bldas01 nmproxysup[851]: Last login: Tue Mar 28 09:26:08 CEST 2017

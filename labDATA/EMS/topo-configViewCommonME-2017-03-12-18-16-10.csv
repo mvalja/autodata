@@ -1,0 +1,4 @@
+ID,Status,IP,Name,Type (Current),Auto Detect Static Client
+"249956","/webclient/common/images/severity_clear.gif","10.1.1.11","Process-GW","Gateway","Disabled"
+"249955","/webclient/common/images/severity_clear.gif","10.1.1.15","Substation","Node","Disabled"
+"249949","/webclient/common/images/severity_critical.gif","10.1.1.21","Management","Gateway","Disabled"

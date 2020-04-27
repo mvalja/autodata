@@ -1,0 +1,108 @@
+; J4900B Configuration Editor; Created on release #H.10.119
+
+hostname "FrontEnd Switch" 
+snmp-server contact "KTH" 
+snmp-server location "KTH" 
+interface 1 
+   flow-control 
+exit
+interface 2 
+   flow-control 
+exit
+interface 3 
+   flow-control 
+exit
+interface 4 
+   flow-control 
+exit
+interface 5 
+   flow-control 
+exit
+interface 6 
+   flow-control 
+exit
+interface 7 
+   flow-control 
+exit
+interface 8 
+   flow-control 
+exit
+interface 9 
+   flow-control 
+exit
+interface 10 
+   flow-control 
+exit
+interface 11 
+   flow-control 
+exit
+interface 12 
+   flow-control 
+exit
+interface 13 
+   flow-control 
+exit
+interface 14 
+   flow-control 
+exit
+interface 15 
+   flow-control 
+exit
+interface 16 
+   flow-control 
+exit
+interface 17 
+   flow-control 
+exit
+interface 18 
+   flow-control 
+exit
+interface 19 
+   flow-control 
+exit
+interface 20 
+   flow-control 
+exit
+interface 21 
+   flow-control 
+exit
+interface 22 
+   flow-control 
+exit
+interface 23 
+   flow-control 
+exit
+interface 24 
+   flow-control 
+exit
+interface 25 
+   flow-control 
+exit
+interface 26 
+   flow-control 
+exit
+snmp-server community "public" Unrestricted 
+vlan 1 
+   name "DEFAULT_VLAN" 
+   untagged 6-26 
+   ip address 192.168.110.5 255.255.255.0 
+   tagged 1 
+   no untagged 2-5 
+   exit 
+vlan 10 
+   name "SCADA" 
+   untagged 2,5 
+   ip address 192.168.109.5 255.255.255.0 
+   tagged 1,3-4 
+   exit 
+vlan 20 
+   name "Office" 
+   tagged 1 
+   exit 
+vlan 911 
+   name "Management" 
+   tagged 1,3-4 
+   exit 
+password manager
+password operator
+

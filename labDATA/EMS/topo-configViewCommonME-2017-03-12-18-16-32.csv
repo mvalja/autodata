@@ -1,0 +1,4 @@
+ID,Status,Name,Wireless IP(2.4 GHz),VLAN ID,VLAN NAME,IP,Mask,Gateway IP,DHCP Server
+"123386","/webclient/common/images/severity_clear.gif","ICC-GW","10.1.1.13",911,"Management","10.1.1.253","255.255.255.0","10.1.1.1","192.168.101.1"
+"123386","/webclient/common/images/severity_clear.gif","ICC-GW","10.1.1.13",500,"ICCP","192.168.200.253","255.255.255.0","192.168.200.1","192.168.200.1"
+"123386","/webclient/common/images/severity_clear.gif","ICC-GW","10.1.1.13",10,"SCADA LAN","192.168.109.253","255.255.255.0","192.168.109.21","192.168.109.21"

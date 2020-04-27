@@ -1,0 +1,3 @@
+ID,Status,IP,Name,VLAN ID,VLAN Name,IP/Mask,Default Gateway,DHCP Server IP
+"249956","/webclient/common/images/severity_clear.gif","10.1.1.11","Process-GW",10,"SCADA LAN","192.168.109.254/24","192.168.109.21","192.168.109.21"
+"249955","/webclient/common/images/severity_clear.gif","10.1.1.15","Substation",10,"SCADA","192.168.109.252/24","192.168.109.1","192.168.109.21"

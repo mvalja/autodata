@@ -1,0 +1,76 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:6249            0.0.0.0:*               LISTEN      6563/../spihis/udwa 
+tcp        0      0 0.0.0.0:6250            0.0.0.0:*               LISTEN      6561/../spihis/udwa 
+tcp        0      0 0.0.0.0:3338            0.0.0.0:*               LISTEN      6556/nmxNsServer    
+tcp        0      0 0.0.0.0:6252            0.0.0.0:*               LISTEN      6545/hdtsrv         
+tcp        0      0 0.0.0.0:6253            0.0.0.0:*               LISTEN      9244/HDAISSrv       
+tcp        0      0 0.0.0.0:749             0.0.0.0:*               LISTEN      850/nmproxy         
+tcp        0      0 0.0.0.0:6254            0.0.0.0:*               LISTEN      9245/HDAISBrowser   
+tcp        0      0 0.0.0.0:2222            0.0.0.0:*               LISTEN      6530/wabhab         
+tcp        0      0 0.0.0.0:6223            0.0.0.0:*               LISTEN      9251/SISInserter    
+tcp        0      0 0.0.0.0:6255            0.0.0.0:*               LISTEN      7947/DAISHAESrv     
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      1303/rpcbind        
+tcp        0      0 0.0.0.0:6224            0.0.0.0:*               LISTEN      6509/SupervisionSrv 
+tcp        0      0 0.0.0.0:56177           0.0.0.0:*               LISTEN      7892/ora_d000_his1  
+tcp        0      0 0.0.0.0:1521            0.0.0.0:*               LISTEN      7669/tnslsnr        
+tcp        0      0 0.0.0.0:6225            0.0.0.0:*               LISTEN      6515/wabdc0         
+tcp        0      0 0.0.0.0:2225            0.0.0.0:*               LISTEN      6538/savreg         
+tcp        0      0 0.0.0.0:6226            0.0.0.0:*               LISTEN      6517/wabdc1         
+tcp        0      0 0.0.0.0:6258            0.0.0.0:*               LISTEN      6516/wabjml         
+tcp        0      0 0.0.0.0:6227            0.0.0.0:*               LISTEN      6514/wabdc2         
+tcp        0      0 0.0.0.0:6260            0.0.0.0:*               LISTEN      6554/DAISSrv        
+tcp        0      0 0.0.0.0:6228            0.0.0.0:*               LISTEN      6531/wabdc4         
+tcp        0      0 0.0.0.0:56884           0.0.0.0:*               LISTEN      1250/rpc.statd      
+tcp        0      0 0.0.0.0:6229            0.0.0.0:*               LISTEN      6518/wabdc5         
+tcp        0      0 0.0.0.0:6230            0.0.0.0:*               LISTEN      6520/wabdc6         
+tcp        0      0 0.0.0.0:6262            0.0.0.0:*               LISTEN      6457/DAISAESrv      
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1195/sshd           
+tcp        0      0 0.0.0.0:6263            0.0.0.0:*               LISTEN      6555/DAISBrowser    
+tcp        0      0 0.0.0.0:6231            0.0.0.0:*               LISTEN      6521/wabdcb         
+tcp        0      0 0.0.0.0:6232            0.0.0.0:*               LISTEN      6522/cmpsrv         
+tcp        0      0 0.0.0.0:88              0.0.0.0:*               LISTEN      850/nmproxy         
+tcp        0      0 0.0.0.0:6233            0.0.0.0:*               LISTEN      6560/../spihis/udwa 
+tcp        0      0 0.0.0.0:6265            0.0.0.0:*               LISTEN      6543/wabk66         
+tcp        0      0 0.0.0.0:6201            0.0.0.0:*               LISTEN      6400/waba0610       
+tcp        0      0 0.0.0.0:2233            0.0.0.0:*               LISTEN      1/systemd           
+tcp        0      0 0.0.0.0:6266            0.0.0.0:*               LISTEN      6541/wabk69         
+tcp        0      0 0.0.0.0:6202            0.0.0.0:*               LISTEN      6398/waba20         
+tcp        0      0 0.0.0.0:6203            0.0.0.0:*               LISTEN      6534/ArchiveServer  
+tcp        0      0 0.0.0.0:5500            0.0.0.0:*               LISTEN      7669/tnslsnr        
+tcp        0      0 0.0.0.0:2236            0.0.0.0:*               LISTEN      6395/dcfns          
+tcp        0      0 0.0.0.0:6205            0.0.0.0:*               LISTEN      6399/AuthSrv        
+tcp        0      0 0.0.0.0:6206            0.0.0.0:*               LISTEN      7951/AuthNotifier   
+tcp        0      0 0.0.0.0:6207            0.0.0.0:*               LISTEN      6558/SISSrv         
+tcp        0      0 0.0.0.0:2241            0.0.0.0:*               LISTEN      1/systemd           
+tcp        0      0 0.0.0.0:2242            0.0.0.0:*               LISTEN      1/systemd           
+tcp        0      0 0.0.0.0:4357            0.0.0.0:*               LISTEN      6402/wabt16         
+tcp        0      0 0.0.0.0:389             0.0.0.0:*               LISTEN      850/nmproxy         
+tcp        0      0 0.0.0.0:6406            0.0.0.0:*               LISTEN      6557/fdsServer      
+tcp        0      0 0.0.0.0:6407            0.0.0.0:*               LISTEN      6438/adtServer      
+tcp        0      0 0.0.0.0:4359            0.0.0.0:*               LISTEN      6544/hdbserver      
+tcp        0      0 127.0.0.1:199           0.0.0.0:*               LISTEN      1191/snmpd          
+udp        0      0 0.0.0.0:50859           0.0.0.0:*                           7706/wabgss         
+udp        0      0 0.0.0.0:57027           0.0.0.0:*                           7706/wabgss         
+udp        0      0 0.0.0.0:53205           0.0.0.0:*                           7706/wabgss         
+udp        0      0 0.0.0.0:53299           0.0.0.0:*                           7706/wabgss         
+udp        0      0 127.0.0.1:6200          0.0.0.0:*                           6368/waba31         
+udp        0      0 192.168.109.20:6204     0.0.0.0:*                           6511/wabgc2         
+udp        0      0 192.168.109.20:6209     0.0.0.0:*                           6377/waba3210       
+udp        0      0 127.0.0.1:49234         0.0.0.0:*                           7892/ora_d000_his1  
+udp        0      0 0.0.0.0:88              0.0.0.0:*                           850/nmproxy         
+udp        0      0 0.0.0.0:111             0.0.0.0:*                           1303/rpcbind        
+udp    40192      0 0.0.0.0:161             0.0.0.0:*                           1191/snmpd          
+udp        0      0 0.0.0.0:61641           0.0.0.0:*                           7706/wabgss         
+udp        0      0 0.0.0.0:53450           0.0.0.0:*                           7907/ora_dmon_his1  
+udp        0      0 0.0.0.0:63769           0.0.0.0:*                           6511/wabgc2         
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           817/chronyd         
+udp        0      0 0.0.0.0:53685           0.0.0.0:*                           1250/rpc.statd      
+udp        0      0 0.0.0.0:618             0.0.0.0:*                           1303/rpcbind        
+udp        0      0 127.0.0.1:60103         0.0.0.0:*                           7873/ora_lreg_his1  
+udp        0      0 0.0.0.0:56057           0.0.0.0:*                           7706/wabgss         
+udp        0      0 127.0.0.1:1002          0.0.0.0:*                           1250/rpc.statd      
+udp        0      0 0.0.0.0:52606           0.0.0.0:*                           7706/wabgss         
+udp        0      0 127.0.0.1:64984         0.0.0.0:*                           7898/ora_s000_his1  
+udp        0      0 0.0.0.0:52765           0.0.0.0:*                           7706/wabgss         
+udp        0      0 0.0.0.0:63064           0.0.0.0:*                           7706/wabgss         
