@@ -4,7 +4,7 @@ IT architecture is constantly changing and data sources provide information that
 
 This repository contains files from a project where we attempted to use truth discovery algorithms to reason over the validity of enterprise architecture data for the purpose of improving the accuracy of model. The pythons scripts of a prototype are given under the folder **framework**. Different information sources were used in the project and one of them, data from a SCADA small utility lab setup is given under the folder **labDATA**.
 
-To launch the framework run autodataShell.py, note however that the framework requires access to an Arango database instance to work properly.
+To launch the framework run *framework/autodataShell.py*, note however that the framework requires access to an Arango database instance to work properly.
 
 ### The framework consist of the following steps:
     
